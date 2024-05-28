@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import './reset.scss';
+@import './helpers/mixin.scss';
+@import './variables.scss';
+@import './base.scss';
+@import './helpers/utilities.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+@import './pages/work.scss';
+@import './pages/service.scss';
+

@@ -1,0 +1,136 @@
+.serviceList {
+  padding: 120px 0;
+
+  @include pad() {
+    padding: 80px 0;
+  }
+
+  &-list {
+    margin-bottom: 0;
+  }
+}
+
+.serviceStep {
+  background-image: url('../images/process-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+
+  @include pad() {
+    padding: 80px 0;
+  }
+
+  &-list {
+    &-item {
+      background-color: $primary-700;
+      border: 1px solid $primary-500;
+      border-radius: 4px;
+      ;
+      width: 655px;
+      margin: 0 auto;
+
+      @include pad() {
+        width: 100%;
+      }
+    }
+  }
+.content{
+  color: $primary-300;
+}
+  .number {
+    font-size: 72px;
+    color: $primary-500;
+    font-family: Tourney, sans-serif;
+  }
+}
+
+.arrow_downward {
+  color: $primary-50;
+}
+
+.price {
+  padding: 120px 12px;
+  @include pad(){
+    padding: 80px 12px;
+  }
+
+  .list {
+    &-item {
+      box-shadow: -2px 5px 6px $primary-400;
+      background-color: $primary-100;
+      width: 32.9%;
+      margin-top: 0;
+      margin-right: auto;
+      margin-left: auto;
+      // width: 416px;
+      @include pad() {
+        width: 80%;
+      }
+      @include mobile() {
+        width: 100%;
+      }
+    }
+    &-content {
+      &-title {
+        color: $primary-600;
+
+      }
+      &::after {
+        content: "";
+        width: 41px;
+        display: block;
+        height: 1px;
+        background-color: $primary-400;
+        margin: 0 16px;
+
+        @include mobile() {
+          width: 28px;
+        }
+      }
+    }
+  }
+
+  .d {
+    align-self: flex-end;
+  }
+}
+
+.case {
+  padding: 120px 12px;
+
+  @include pad() {
+    padding: 80px 12px;
+  }
+}
+
+.QA {
+  padding: 120px 12px;
+
+  @include pad() {
+    padding: 80px 12px;
+  }
+
+  &-content {
+    width: 80%;
+    margin: 0 auto;
+
+    @include pad() {
+      width: 100%;
+    }
+  }
+  &-list{
+    &-item {
+      width: 48.5%;
+      // margin-top: 0;
+      // margin-bottom: 0;
+      // margin-right: auto;
+      // margin-left: auto;
+      border-radius: 8px;
+      border: 1px solid $primary-300;
+  
+      @include pad() {
+        width: 100%;
+      }
+    }
+  }
+}

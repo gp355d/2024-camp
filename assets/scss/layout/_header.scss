@@ -1,0 +1,83 @@
+header {
+  padding: 28px 0;
+
+  .logo {
+    margin-right: 318px;
+
+    @include pad {
+      width: 74px;
+      margin-right: 0;
+    }
+  }
+}
+
+@include pad() {
+  .menu.test {
+    max-height: 100%;
+    transition: all .8s linear;
+  }
+}
+
+.menu {
+  &-link{
+    color: $primary-900;
+  }
+  @include pad {
+    position: absolute;
+    left: 0;
+    top: 67px;
+    width: 100%;
+    text-align: center;
+    background-color: $primary-50;
+    z-index: 2;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.8s linear;
+  }
+}
+.hambuger{
+  color: $primary-900;
+}
+.border_corner {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  opacity: 0;
+  border:1px solid black;
+}
+.border-corner-top-left {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+.border-corner-top-right {
+  top: 0;
+  right: 0;
+  border-bottom: none;
+  border-left: none;
+}
+.border-corner-bottom-left {
+  bottom: 0;
+  left: 0;
+  border-top: none;
+  border-right: none;
+}
+.border-corner-bottom-right {
+  right: 0;
+  bottom: 0;
+  border-top: none;
+  border-left: none;
+}
+.list-text {
+  font-weight: 600;
+  // display: inline-block;
+  // text-align: center;
+}
+.list-text a {
+  // padding: 4px 8px;
+  position: relative;
+}
+.list-text:hover .border_corner {
+  opacity: 1;
+}
