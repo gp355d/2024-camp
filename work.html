@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>作品集</title>
+    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-6d1cf0fa.js"></script>
+    <link rel="stylesheet" href="/web-layout-training-vite/assets/main-dd80a53b.css">
+  </head>
+  <body>
+    <header class="container d-flex align-items-center justify-md-between">
+  <a href="#">
+    <img class="logo" src="/web-layout-training-vite/assets/logo-cfe3d3ec.svg" alt="logo">
+  </a>
+  <ul class="menu d-flex d-md-block">
+    <li class="mr-10 mr-md-0 mt-md-10 mb-md-6 list-text">
+      <a class="d-md-inblock menu-link fz-md-5 pb-1 pl-2 pt-1 pr-2" href="../pages/index.html">
+        <span class="border_corner border-corner-top-left"></span>
+        <span class="border_corner border-corner-top-right"></span>
+        <span class="border_corner border-corner-bottom-left"></span>
+        <span class="border_corner border-corner-bottom-right"></span>
+        首頁</a>
+    </li>
+    <li class="mr-10 mr-md-0 mb-md-6 list-text">
+      <a class="d-md-inblock menu-link fz-md-5 pb-1 pl-2 pt-1 pr-2" href="../pages/work.html">        
+        <span class="border_corner border-corner-top-left"></span>
+        <span class="border_corner border-corner-top-right"></span>
+        <span class="border_corner border-corner-bottom-left"></span>
+        <span class="border_corner border-corner-bottom-right"></span>作品集</a>
+    </li>
+    <li class="mr-10 mr-md-0 mb-md-6 list-text">
+      <a class="d-md-inblock menu-link fz-md-5 pb-1 pl-2 pt-1 pr-2" href="../pages/service.html">
+        <span class="border_corner border-corner-top-left"></span>
+        <span class="border_corner border-corner-top-right"></span>
+        <span class="border_corner border-corner-bottom-left"></span>
+        <span class="border_corner border-corner-bottom-right"></span>
+        服務項目</a>
+    </li>
+    <li class="mr-10 mr-md-0 mb-md-6 list-text">
+      <a class="d-md-inblock menu-link fz-md-5 pb-1 pl-2 pt-1 pr-2" href="#">
+        <span class="border_corner border-corner-top-left"></span>
+        <span class="border_corner border-corner-top-right"></span>
+        <span class="border_corner border-corner-bottom-left"></span>
+        <span class="border_corner border-corner-bottom-right"></span>
+        部落格</a>
+    </li>
+    <li class="mb-md-10 mb-md-6 list-text">
+      <a class="d-md-inblock menu-link fz-md-5 pb-1 pl-2 pt-1 pr-2" href="#">
+        <span class="border_corner border-corner-top-left"></span>
+        <span class="border_corner border-corner-top-right"></span>
+        <span class="border_corner border-corner-bottom-left"></span>
+        <span class="border_corner border-corner-bottom-right"></span>
+        聯絡我</a>
+    </li>
+  </ul>
+  <a href="#" class="d-none d-md-flex align-items-center hambuger">
+    <span class="material-symbols-outlined js-hambuger fz-1">menu</span>
+  </a>
+</header>
+
+<!-- <h1 class="header">我是 header</h1> -->
+<!-- <a href="index.html">index</a>
+<a href="about.html">about</a>
+<a href="contact.html">contact</a> -->    <section class="banner">
+      <div class="container d-flex flex-column justify-content-center justify-md-content-center">
+        <div class="slogn">
+          <img class="quote-left" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR8SURBVHgB7ZrLURtBEIZbQrw5iAuP4rKKwMIJWDgCEQFyBEAEkpwAOAJEBJgIEBEgR6D1geJ1kC6oKJ7+G48wBRJMz4ODq78qaqnV7M7sP909Mz1DpCiKoiiKoiiKoiiKorhwcnKSnJ+fH5yenm5QZNrtdv7i4qLK9ZEnGYoMN3Z6err68PDwJEwmk1mem5trUQSOj4/LuVxuC/8m5lZ9fn6+Ro5EFQhWU8pmszv0r7F9Wr1eb6VQKHQpENwRMzMzO/f39+WXv+HeyuLiYpMcyFIkYN7rEIdNPBnwcxEfU6VAoK7i1NTU0SBxGO4kFpAciCIQGrwFl9p+qww+ZoMtjDw5Oztbw2VYR/RJXDskqIuZeLMHcUqWj6RwtWVXV4M4/NE12/IurhbMglgcmPmBQBwmwTNOo5pUHMbF1YIJxAESl6LkGYj5Axa0TUI4vpFQHNCCBX2TWmsQFzMxR2IJKTfWZWThgIy6jiTPcEcsLCw4WWqOPOHedBCHY0FKQniyibr2JM+YjmiQI14WxA2GX7cFjziLwyDusOVYu7GvOIxXDDLzHFt8xeGgbC0OLG3TVxzG2YKko4jP8kJqqT4x5yVOFsQNxqUieKTus/aCODVB8TSUOI91kwOmwYll8dRnsWg6Y822/O3t7SYFxDUGfRGUrZEHEuuBazWWlpZ+UkDEAqFHKySznl3yw7ozIJBvXa8QCzQyMmJt7hwsyQMMBLw6TyyLp64pjbcQCdTpdPKStRbco0l+lG0Lol37FAGRQFdXV5K1VjdA1tDavZBF9E6vDkLqYiXbgpj3pOQBWyvZuxfPmn9TBEQCwWU+CYp7pVOF1kp3d3fB0rfPES1WYRUcg6zKolzCVzOPIYclRiIpjMEj368L4nZD5btFAvU/2pIEo9CTmvifLy2845DTsRaCJSRr2xEs/PF/JOE4y9DFvSYmjrs+cyORi7EFkR9FvIOT+e3Y+2MQh9vKW0B7EOtjkvam0iBAqK2P2ERk0O4K58rJAekollJAIFK1Hzdiw/M3uHmNhETbF7Mkj+A6cDsG4sUYldZjJ+2DbxejZ8uDGo37MQTKT05OViQPSGNQjMlYfmJiYtCcp0lxkMzlxAJFOXAAd3olEE8DYrgZ3lmSlJe6WJPikAy5H6VDJIgEMpO7lD4IrK9irNATSWHxKIZGB09KDQvI4+PjDQpPKiksFggBdTt0bBgdHR24Uzo7O9tFXU0KiDTLIBaIGx3aim5ubn4N+w2r9DoFBO87lJR3mijC9GuhrIgt5K2FK6dRfVO3L2hICjsJxFaEnlilAMB63v147hAKMzjsSNMuzksN7lm4mq/5121SEcatV8hPpDbe8Z2EeB9/wWKzhvSF+Hiby/aw2YJ+77jdq6ro77mAry7nArwXq6i0hsoLZNm7HLuQxFp12R7mDxwbG1u2jUmoq8NW0+v1Prsemgh6RtEcyqyY3PXz5UPK2T3Erf3r6+tmiHSoSZOUeJ/OZDqTfl34a3Hwv7y83A151FhRFEVRFEVRFEVRFOU/4A/uRzI/F8lNogAAAABJRU5ErkJggg==" alt="quote-left">
+          <p class="mb-2 mb-md-4 fz-4 fz-md-5 text-center">讓使用者在觀賞與使用的旅程中，發現<span class="work-img-border-bottom">設計的價值</span></p>
+          <p class="fz-4 fz-md-5 text-center">而我在設計與開發的過程中，看見<span class="work-img-border-bottom">自己的價值</span></p>
+          <img class="quote-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR9SURBVHgB7ZpbTmJBEIZLxHh9wMT702EFozvAFSgrEFcArkBYgcwKxBXIrEBmBcMOOA/efdB50BjjZf5iDgnOIHRV93GSSX0JUbEPXfxV1ZfqJjIMwzAMwzAMwzAMw/ivGCNPOp1ObnZ2duft7a2AP9fxipJ/xWNjYzF+Nl9eXr6trq7G5An3NTMzU0BfW/jsQl9fTBvvtdHXEfpqUSDUArGxc3NzZRhbwSs3qj2Mr9/f39fy+fwdKTg7O9uemJg4dOkLxK+vr5shnKIS6OLiIspkMif03oMuqAy/vr4+YEeQENhYXVxcrJEHGRLiIQ7TfZY/w/WBq6urfY04DJxRvbm52ScPxAKxV0gnTo+uSJyioxpCyBJ+VMkDFgmfUyAlIoESz++QPxHGr5GeHR8fD9EXO/XYxSEDn5U0xkCrCvVBwLOVYZ5lZyQzYwh49lPZLhIInvhCAUGE7A/pa53CUtZEkUggeDSigHCEfGQ0Iiy0QKookg7SEQVmenq6NOh9pLNqzBiBeEyTjkGqRd5QAzKZLfo8IskSg5GmWHCB8JkfpVJM6VCQNBYJhHHhO4UnN8irEK5NKYAsEI1t0hRLxWjssf6aHaemptpppDQJx1GRQJOTk400jH5+fs7/+d78/PwdVwEoMLBftFQRCZQY/ZUCM2SHXk0pipwR78WwE2ejW/QJ8K4f0eW1Gx+AaPkgFojBmFHEgH1En8Da2lodUbtH/wiVQJxq8G4JvxbxaqadBiwSHJJP0tt3ohDZ6l1y7cFbBsw83fDFF8khyn64PosvvwvBGySgtzTgNETNqEOOsxMPD0tLS5vkSJYCkZRSu96RrlZJsSjsr0py7dt1nwhn/CQBqhQbBUeQpP3j46NX2jjWqXttRX2lIhDSKxI0j7WF/B6IoEjQvCVom45AkkIX2rbIg9PT03VJBEmjNRWB4FHnHXo2m22SB3i+4NqWB2hptAYXKCmjRo7N44WFBa/tBL502bUtIq1BQoILhPpOybWtb3olpx6RY/N4eXlZvLgNKhDWI9skqNpBIL9DvUzG+cwLkaZK5dARdODakMPd52iYDxRJED3aTXYwgfh4mAS1Fp/oQV9c9KoKHjnSOiOIQDC4LDwermkNTs7LjgWP8NhTJSXeezGEOo85DcEjbRi8QQo09wJ4k+uTyl4RpBCHb3cUSYFGHETanu8VGLVAyZjTkDyDmaSoMZjXVoobJbWVlZU6eSLezSfGHgw5rhkIexOpJVrmJ7fXNNdfmj7jTj8igW5vb3NPT0+HJD9hVXkT9aWKQpz2w8PDLgVCXLTn4hbJqGm9CYFY1Ni1Pa/MIc6mb3WgH03RvgVDRi66uAzLYvqEusQhbBOiNKg4jGqaT1KNS6rRB034hmsRpc0gB42Xl5f1YZtSHt9CDMiDUBfth3i2iTDfCCUOgwPLKg0u1ncvhaYlDqOe5jnVYFz/doHPsIpIqWLoMGeHIILeOYT7ZkeEvBOdClgP8a3VqvYOoITz8/MK0u1EcShgGIZhGIZhGIZhGIZh/OYX610bdNhEpEIAAAAASUVORK5CYII=" alt="quote-right">
+        </div>
+        <ul class="ex d-flex align-items-center justify-content-center flex-md-column">
+          <li class="text-center">
+            <h2 class="ex-title">2B經驗</h2>
+            <p class="ex-description">內部監控系統、庫存系統、採購系統、行銷整合系統</p>
+          </li>
+          <li class="text-center">
+            <h2 class="ex-title">2C經驗</h2>
+            <p class="ex-description">跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container project">
+      <ul class="list d-flex justify-between flex-wrap">
+        <li class="mb-20 list-item">
+          <img class="list-item-img" src="/web-layout-training-vite/assets/work-image1-45d61632.png" alt="work-image1">
+          <div class="list-item-content p-4 d-flex flex-column">
+            <h1 class="fz-3 list-item-content-title font-bold mb-2">星際旅行訂票平台</h1>
+            <h2 class="list-item-content-subTitle mb-6">悠遊宇宙的夢想，從這裡開始實現</h2>
+            <div class="tags d-flex flex-md-wrap">
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">網頁設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">響應式設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 ">Bootstrap</span>
+            </div>
+          </div>
+        </li>
+        <li class="mb-20 list-item">
+          <img class="list-item-img" src="/web-layout-training-vite/assets/work-image2-40b11641.png" alt="work-image2">
+          <div class="list-item-content p-4 d-flex flex-column ">
+            <h1 class="fz-3 list-item-content-title font-bold mb-2">理財App</h1>
+            <h2 class="list-item-content-subTitle mb-6">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</h2>
+            <div class="tags d-flex flex-md-wrap">
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">APP設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">iOS</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3">React</span>
+            </div>
+          </div>
+        </li>
+        <li class="mb-20 list-item">
+          <img class="list-item-img" src="/web-layout-training-vite/assets/work-image3-7572506c.png" alt="work-image3">
+          <div class="list-item-content p-4 d-flex flex-column">
+            <h1 class="fz-3 list-item-content-title font-bold mb-2">醫美診所官網</h1>
+            <h2 class="list-item-content-subTitle mb-6">永保青春的秘密，從粹究開始</h2>
+            <div class="tags d-flex flex-md-wrap">
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">網頁設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">響應式設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3">ＷordPress</span>
+            </div>
+          </div>
+        </li>
+        <li class="mb-20 list-item">
+          <img class="list-item-img" src="/web-layout-training-vite/assets/work-image4-541c5139.png" alt="work-image4">
+          <div class="list-item-content p-4 d-flex flex-column">
+            <h1 class="fz-3 list-item-content-title font-bold mb-2">美美美早餐店 POS 機 UI Design</h1>
+            <h2 class="list-item-content-subTitle mb-6">訂單送單一目瞭然，自動報表分析好輕鬆</h2>
+            <div class="tags d-flex flex-md-wrap">
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">UI 設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">前端開發</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3">Wix</span>
+            </div>
+          </div>
+        </li>
+        <li class="mb-18 list-item">
+          <img class="list-item-img" src="/web-layout-training-vite/assets/work-image5-3bc9116a.png" alt="work-image5">
+          <div class="list-item-content p-4 d-flex flex-column">
+            <h1 class="fz-3 list-item-content-title font-bold mb-2">電影院訂票系統</h1>
+            <h2 class="list-item-content-subTitle mb-6">三步驟完成訂票，電腦手機都支援</h2>
+            <div class="tags d-flex flex-md-wrap">
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">前端開發</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">後端支援</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3">Vue</span>
+            </div>
+          </div>
+        </li>
+        <li class="mb-18 list-item">
+          <img class="list-item-img" src="/web-layout-training-vite/assets/work-image6-d2f1fe53.png" alt="work-image6">
+          <div class="list-item-content p-4 d-flex flex-column">
+            <h1 class="fz-3 list-item-content-title font-bold mb-2">巧克巧克形象官網設計</h1>
+            <h2 class="list-item-content-subTitle mb-6">三步驟完成訂票，電腦手機都支援</h2>
+            <div class="tags d-flex flex-md-wrap">
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">UI設計</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 mr-4 mr-md-2">設計系統</span>
+              <span class="tags-bg pt-1 pb-1 pl-3 pr-3 ">網路電商</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul class="pagination d-flex justify-content-center text-center">
+        <li class="mr-4"><a class="pagination-number pagination-number-active fz-4" href="#">1</a></li>
+        <li class="mr-4"><a class="pagination-number fz-4" href="#">2</a></li>
+        <li><a class="pagination-number fz-4" href="#">3</a></li>
+      </ul>
+    </section>
+    <footer class="bg">
+  <div class="container d-flex justify-content-between align-items-center flex-md-column">
+    <div class="footer">
+      <a class="footer-link" href="#">
+        <img class="footer-logo mb-10 mb-md-6" src="/web-layout-training-vite/assets/logo-cfe3d3ec.svg" alt="logo">
+      </a>
+      <p class="footer-description fz-5 mb-6">若有數位產品設計和開發相關問題
+        歡迎填寫表單，或直接與我聯絡！
+      </p>
+      <a class="footer-email mb-10" href="mailto:service@hexschool.com">service@hexschool.com</a>
+    </div>
+    <ul class="steps-list">
+      <li class="steps-list-item mb-6 active">
+        <a class="fz-5 pt-2 pb-2 pl-6 pr-6 steps-text steps-list-text-active" href="#">
+          <img class="steps-icon" src="/web-layout-training-vite/assets/list-3a3842bf.svg" alt="icon">
+          <span>填寫表單</span>
+        </a>
+      </li>
+      <li class="steps-list-item mb-6">
+        <a class="fz-5 pt-2 pb-2 pl-6 pr-6 steps-list-text" href="#">
+          <img class="steps-icon" src="/web-layout-training-vite/assets/instagram-b518883e.svg" alt="icon">
+          <span>hexschool_demo</span>
+        </a>
+      </li>
+      <li class="steps-list-item">
+        <a class="fz-5 pt-2 pb-2 pl-6 pr-6 steps-list-text" href="#">
+          <img class="steps-icon" src="/web-layout-training-vite/assets/facebook-cf354ec4.svg" alt="icon">
+          <span>hexschoolTW</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>    
+    <script>
+
+    </script>
+    
+  </body>
+</html>
