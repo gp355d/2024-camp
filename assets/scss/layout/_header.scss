@@ -2,7 +2,7 @@ header {
   padding: 28px 0;
 
   .logo {
-    margin-right: 318px;
+    // margin-right: 318px;
 
     @include pad {
       width: 74px;
@@ -19,6 +19,7 @@ header {
 }
 
 .menu {
+  width: 100%;
   &-link{
     color: $primary-900;
   }
@@ -79,5 +80,8 @@ header {
   position: relative;
 }
 .list-text:hover .border_corner {
+  opacity: 1;
+}
+.list-text:active .border_corner {
   opacity: 1;
 }

@@ -10,7 +10,7 @@
   }
 }
 .footer{
-  width: 300px;
+  // width: 300px;
   @include pad(){
     width: 100%;
     text-align: center;
@@ -37,7 +37,7 @@
     color: $primary-700;
     &-active{
       color: $primary-50;
-      background-color: $primary-900;
+      // background-color: $primary-900;
     }
   }
   &-item{

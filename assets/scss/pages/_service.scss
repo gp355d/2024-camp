@@ -4,6 +4,9 @@
   @include pad() {
     padding: 80px 0;
   }
+  @include mobile() {
+    padding: 80px 34.5px;
+  }
 
   &-list {
     margin-bottom: 0;
@@ -53,7 +56,9 @@
   @include pad(){
     padding: 80px 12px;
   }
-
+  @include mobile(){
+    padding: 80px 27px;
+  }
   .list {
     &-item {
       box-shadow: -2px 5px 6px $primary-400;
@@ -109,7 +114,9 @@
   @include pad() {
     padding: 80px 12px;
   }
-
+  @include mobile(){
+    padding: 80px 20px;
+  }
   &-content {
     width: 80%;
     margin: 0 auto;
