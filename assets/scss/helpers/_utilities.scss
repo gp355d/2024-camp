@@ -17,6 +17,9 @@
 .text-center{
   text-align: center;
 }
+.text-left{
+  text-align: left;
+}
 .text-white{
   color: $primary-50;
 }
@@ -28,6 +31,9 @@
 }
 .d-block{
   display: block;
+}
+.d-inline-block{
+  display: inline-block;
 }
 .d-flex{
   display: flex;
@@ -103,5 +109,14 @@
   }
   .flex-sm-wrap{
     flex-wrap: wrap;
+  }
+  .justify-sm-between{
+    justify-content: space-between;
+  }
+  .d-sm-none{
+    display: none;
+  }
+  .d-sm-block{
+    display: block;
   }
 }
