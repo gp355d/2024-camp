@@ -1,3 +1,6 @@
+*{
+  outline: 1px solid green;
+}
 .introduction {
   position: relative;
 
@@ -15,30 +18,51 @@
 }
 
 .introduction-bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 69%;
-  height: 500px;
+  // overflow: hidden;
+  background-image: url(../images/hero-lg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 792px;
+  width: 80%;
+  @include pad(){
+    background-image: url(../images/hero-sm.png);
+    width: 100%;
+    height: 285px;
+  }
 }
-
+.hashtag{
+  color: $primary-400;
+}
 .description {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  // height: 100%;
   justify-content: center;
   align-items: flex-end;
-  width: 26%;
-  height: 792px;
-  &-slogan-title {
-    // font-size: $fs-1;
-    // margin-bottom: $spacer-6;
+  width: 32.888%;
+  // height: 792px;
+  @include pad(){
+    width: 100%;
+  }
+  &-slogan{
+    margin: 0 auto;
+    &-title{
+      // font-size: $fs-1;
+      // margin-bottom: $spacer-6;
+    }
+
   }
   &-slogan-content {
     // margin-bottom: $spacer-4;
   }
 }
-
+.work-introl{
+  padding-top: 120px;
+  @include pad(){
+    padding-top: 40px;
+  }
+}
 .work-intro {
   // height: 800px;
   &-content {
@@ -72,7 +96,7 @@
   backdrop-filter: blur(8px);
   background: #ffffff1a;
   border-radius: 24px;
-  display: inline-flex;
+  // display: inline-flex;
   flex-direction: column;
   padding: 80px 40px 58px 40px;
   @include pad(){
@@ -212,4 +236,47 @@
 
 .deco-right::before {
   right: -6px;
+}
+.hot{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+// .swiper {
+//   width: 100%;
+//   height: 100%;
+// }
+
+.swiper-slide {
+  width: 32.99% !important;
+  @include pad(){
+    width: 100% !important;
+  }
+
+  // text-align: center;
+  // font-size: 18px;
+  // background: #fff;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  // @include mobile(){
+  //   width: 351px;
+  //   height: 1134px;
+  //   margin: 0rem auto;
+  // }
+}
+.swiper .swiper-pagination-bullet-active {
+  color: #FFFFFF;
+  background: #000000;
 }
